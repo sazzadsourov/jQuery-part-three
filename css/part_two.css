@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header2 {
+  color: white;
+  border: 8px solid green;
+  text-align: center;
+  background-color: blue;
+  margin-left: 500px;
+  margin-right: 500px;
+  display: block;
+  margin-top: 100px !important;
+}
+.isStuck {
+  left: 0px;
+  width: 100%;
+}
+.navbar-wrapper {
+  display: block;
+  position: relative;
+  z-index: 15;
+}
+
+.c_navbar {
+}
+.main_menu ul li {
+  background-color: tomato;
+  margin-right: 20px;
+  color: #ffffff !important;
+  border: 3px solid tomato;
+}
+.main_menu ul li:hover {
+  background-color: white;
+  border: 3px solid tomato;
+  color: white !important;
+}
+.main_menu ul li a {
+  font-size: 20px;
+  padding: 6px 5px;
+}
+.active {
+  background-color: white !important;
+  border: 3px solid tomato !important;
+  color: tomato !important;
+}
+/* wow plugin start */
+.box_one {
+  background-color: blue;
+  min-height: 40vh;
+  margin-bottom: 25px;
+  text-align: center;
+  color: white;
+}
+.box_two {
+  background-color: cyan;
+  min-height: 40vh;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.box_three {
+  background-color: tomato;
+  min-height: 40vh;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.box_four {
+  background-color: lightgreen;
+  min-height: 40vh;
+  text-align: center;
+}
+/* wow plugin end */
+/* owl carousel start */
+.owl_img {
+  height: 300px;
+}
+/* owl carousel end */
+/* megnify image start */
+
+.meg_img {
+  height: 258px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.meg_img img {
+  width: 100%;
+}
+
+/* megnify image end */

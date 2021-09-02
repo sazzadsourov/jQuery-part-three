@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header2 {
+  color: white;
+  border: 8px solid green;
+  text-align: center;
+  background-color: blue;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.c_navbar {
+  margin: 20px;
+}
+.main_menu ul li {
+  background-color: tomato;
+  margin-right: 20px;
+  color: #ffffff !important;
+  border: 3px solid tomato;
+}
+.main_menu ul li:hover {
+  background-color: white;
+  border: 3px solid tomato;
+  color: white !important;
+}
+.main_menu ul li a {
+  font-size: 20px;
+  padding: 6px 5px;
+}
+.active {
+  background-color: white !important;
+  border: 3px solid tomato !important;
+  color: tomato !important;
+}
+/* wow plugin start */
+.box_one {
+  background-color: blue;
+  min-height: 40vh;
+  margin-bottom: 25px;
+  text-align: center;
+  color: white;
+}
+.box_two {
+  background-color: cyan;
+  min-height: 40vh;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.box_three {
+  background-color: tomato;
+  min-height: 40vh;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.box_four {
+  background-color: lightgreen;
+  min-height: 40vh;
+  text-align: center;
+}
+/* wow plugin end */
+
+/* light_box css start */
+/* .l_button {
+  margin: 30px 0;
+}
+#l_btn {
+  padding: 14px 20px;
+  margin-right: 25px;
+  border: 3px solid tomato;
+}
+#l_btn:hover {
+  background-color: tomato;
+  color: white;
+}
+.light_item {
+  width: 100%;
+}
+.light_item img {
+  width: 90%;
+  height: 370px;
+  margin-bottom: 20px;
+} */
+/* light_box css end */
+.light_img {
+  width: 100%;
+}
+.light_img img {
+  width: 425px;
+  height: 300px;
+
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
